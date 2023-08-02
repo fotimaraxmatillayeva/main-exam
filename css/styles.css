@@ -652,6 +652,25 @@ p {
   gap: 18px;
 }
 .footer__signup-title-links-appstore {
+  width: 159px;
   padding: 8px 15px 9px 16px;
-  background-color: #E5ECF4;
+  background-color: #e5ecf4;
+}
+.footer__signup-title-links-appstore-text {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.446px;
+}
+.footer__signup-title-links-appstore-title {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.893px;
 }/*# sourceMappingURL=styles.css.map */
