@@ -650,6 +650,7 @@ p {
   display: flex;
   align-items: center;
   gap: 18px;
+  margin-left: 916px;
 }
 .footer__signup-title-links-appstore {
   width: 159px;
