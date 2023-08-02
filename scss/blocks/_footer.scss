@@ -1,44 +1,4 @@
-.footer {
-  &__signup {
-    background: #495567;
-    &-title {
-      color: #fff;
-      font-family: Space Mono;
-      font-size: 48px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 48px; /* 100% */
-      letter-spacing: -2.143px;
-      width: 415px;
-      &-links {
-        display: flex;
-        align-items: center;
-        gap: 18px;
-       margin-left: 916px;
-        &-appstore {
-          width: 159px;
-          padding: 8px 15px 9px 16px;
-          background-color: #e5ecf4;
-          &-text {
-            color: #495567;
-            font-family: Space Mono;
-            font-size: 10px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: -0.446px;
-          }
-          &-title {
-            color: #495567;
-            font-family: Space Mono;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 24px; /* 120% */
-            letter-spacing: -0.893px;
-          }
-        }
-      }
-    }
-  }
+.footer__signup{
+  background: #495567;
+  
 }
