@@ -1,207 +1,23 @@
-footer {
-  background-color: #fff;
-  background: #333a44;
-  height: 96px;
-  padding: 22px 0;
-  .sign {
-    background: url(../../img/Group22.svg);
-    width: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-color: #495567;
-    background-position: bottom -190px right -150px;
-    color: #fff;
-
-    &__wrapper {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: center;
-
-      &__title {
-        font-size: 48px;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 48px;
-        margin: 100px 0;
-
-        max-width: 365px;
-      }
-
-      &__box {
-        img {
-          margin: 10px;
-        }
-      }
-    }
-  }
-
-  @media only screen and (max-width: 768px) {
-    .sign {
-      background: url(../../img/Group22.svg);
-      width: 100%;
-      height: 300px;
-      background-repeat: no-repeat;
-      background-color: #495567;
-      background-position: bottom -190px right -150px;
+.footer {
+  &__signup {
+    background: #495567;
+    &-title {
       color: #fff;
-
-      &__wrapper {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        flex-direction: column;
-
-        &__title {
-          font-size: 48px;
-          font-weight: 700;
-          font-size: 48px;
-          line-height: 48px;
-          margin: 50px 0;
-          width: 100%;
-          text-align: center;
-        }
-
-        &__box {
-          img {
-            margin: 10px;
-          }
-        }
-      }
-    }
-  }
-
-  @media only screen and (max-width: 576px) {
-    .sign {
-      &__wrapper {
-        &__title {
-          font-size: 32px;
-          line-height: 32px;
-        }
-
-        &__box {
-          img {
-            margin: 3px;
-            &:nth-child(1) {
-              width: 112px;
-            }
-            &:nth-child(2) {
-              width: 130px;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .footer {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-
-    &__ul {
-      list-style-type: none;
-      display: flex;
-      width: 380px;
-      justify-content: flex-start;
-      align-items: center;
-
-      &__li {
-        &:nth-child(2) {
-          margin-left: 25px;
-        }
-
-        &:nth-child(3) {
-          margin-left: 25px;
-        }
-
-        &:nth-child(4) {
-          margin-left: 25px;
-        }
-
-        &-link {
-          text-decoration: none;
-          color: #939caa;
-
-          &:hover {
-            color: #fcb72b;
-          }
-        }
-      }
-    }
-
-    &__icon {
-      a {
-        text-decoration: none;
-        font-size: 36px;
-        color: #fcb72b;
-        margin-top: 55px;
-
-        i {
-          margin: 0 15px;
-
-          &:hover {
-            color: #939caa;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  footer {
-    background-color: #fff;
-    background: #333a44;
-    padding: 22px 0;
-    height: 450px;
-
-    .footer {
-      display: flex;
-      width: 100%;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-      margin: 30px 0;
-
-      &__ul {
-        list-style-type: none;
+      font-family: Space Mono;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px; /* 100% */
+      letter-spacing: -2.143px;
+      width: 415px;
+      &-links{
         display: flex;
         align-items: center;
-        flex-direction: column;
-
-        &__li {
-          margin: 15px;
-
-          &-link {
-            text-decoration: none;
-            color: #939caa;
-
-            &:hover {
-              color: #fcb72b;
-            }
-          }
-        }
-      }
-
-      &__icon {
-        a {
-          text-decoration: none;
-          font-size: 36px;
-          color: #fcb72b;
-          margin-top: 55px;
-
-          i {
-            margin: 0 15px;
-
-            &:hover {
-              color: #939caa;
-            }
-          }
+        gap: 18px;
+        &-appstore{
+          padding: 8px 15px 9px 16px;
+          background-color: #E5ECF4;
+          
         }
       }
     }
